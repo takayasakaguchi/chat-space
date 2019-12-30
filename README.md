@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # README
 ## usersテーブル
 |Column|Type|Options|
@@ -38,3 +39,6 @@
 ### Association
 - belongs_to :group
 - belongs_to :user
+=======
+
+>>>>>>> Stashed changes
