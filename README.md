@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # README
 ## usersテーブル
 |Column|Type|Options|
