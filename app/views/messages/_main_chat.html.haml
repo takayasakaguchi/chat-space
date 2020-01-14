@@ -1,0 +1,27 @@
+%div.chat_main
+  %div.chat_main__group_info
+    %div.chat_main__group_info_name
+      %p.chat_main__group_nameテスト
+      %ul.chat_main__group_membar membar:name
+    %a(href=""class="name_edit")
+      %div.chat_main__group_name_edit Edit
+  %div.chat_main__message_list
+    %div.chat_main__message_list_new
+      %p.chat_main__message_new takaya
+      %p.chat_main__message_new_day 2020/01/12(Sun) 21:50:11
+    %p.chat_main__message_text おはよう
+    %div.chat_main__message_list_new
+      %p.chat_main__message_new sakaguchi
+      %p.chat_main__message_new_day 2020/01/12(Sun) 21:50:11
+    %p.chat_main__message_text おやすみ
+  %div.chat_main__message_form
+    %from.chat_main__message_text_type
+      %div.chat_main__message_from_text
+        %input{type:"text",class:"chat_main__text",placeholder:"type a message"}
+        %label{class:"chat_main__image"}
+          = icon('fas','image')
+          %input{type:"file",class:"chat_main__image_file"}
+      %input{type:"submit",class:"chat_main__submit_btn",value:"send"}
+
+      
+        
