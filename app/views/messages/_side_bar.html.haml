@@ -1,0 +1,19 @@
+.side_bar
+  .side_bar__header
+    .side_bar__user_icon
+      %p.side_bar__user_nameあかさたか
+      %ul.side_bar__user_name_icon 
+        %li.side_bar__user_new_group
+          = link_to "#",class:"icon" do
+            = icon('fas','cog')
+        %li.side_bar__user_edit
+          = link_to "#",class:"icon" do
+            = icon('fas','edit')
+  .side_bar__header_name
+    .side_bar__group_bar
+      %p.side_bar__group_nameグループ
+      %p.side_bar__gruop_messageまだメッセージがありません
+    .side_bar__group_bar
+      %p.side_bar__group_nameグループ
+      %p.side_bar__gruop_messageまだメッセージがありません
+
